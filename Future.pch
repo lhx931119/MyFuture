@@ -1,0 +1,32 @@
+//
+//  Future.pch
+//  MyFuture
+//
+//  Created by 李宏鑫 on 16/4/1.
+//  Copyright © 2016年 hongxinli. All rights reserved.
+//
+
+#ifndef Future_pch
+#define Future_pch
+
+
+#import "ReactiveCocoa.h"
+#import "AFNetworking.h"
+#import "FMDB.h"
+#import "FutureTable.h"
+#import "Masonry.h"
+#import "FutureCommon.h"
+#import "FutureCategory.h"
+#import "SVPullToRefresh.h"
+#import "JHRefresh.h"
+
+#define PATH @"file:///Users/lihongxin/Desktop/LOL.jpgs/"
+
+#define MUserInfo @"userInfo"
+
+#define MIsFirstLanuch @"isFirstLanuch"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Future_pch */
